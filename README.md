@@ -1,4 +1,4 @@
-[Ceiba DevFest2013](http://www.ceiba.com.co)
+[Ceiba DevFest2013](http://intranet/CeibaDevFest2013/default.aspx)
 ===========
 
 En este repositorio se pueden encontrar las presentaciones y ejemplos de código de las presentaciones del Ceiba DevFest
