@@ -11,3 +11,4 @@ Si tienes instalado [git](http://msysgit.github.com), puedes utilizar el comando
 Si no, puedes dar click en el link que dice ZIP
 
 Dentro de cada ejemplo de código se explica cómo se debe correr y en el caso de las presentaciones, encontraras el código html que usamos para crearlas.
+<a href="/ceibasoftware/DevFest2013/archive/master.zip" class="button minibutton " icon_class="mini-icon-download" rel="nofollow" title="Download this repository as a zip file"><span class="mini-icon mini-icon-download"></span>ZIP</a>
