@@ -1,15 +1,15 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Drools Blip<br>Introducción a la plataforma',
-    subtitle: 'Expert, Guvnor, Fusion y jBPM5',
+    title: 'Software as a service',
+    subtitle: 'El caso especifico de la plataforma Heroku',
     //eventTitle: 'Google I/O 2013',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
     enableTouch: true, // Default: true. If touch support should enabled. Note: the device must support touch.
     //analytics: 'UA-XXXXXXXX-1', // TODO: Using this breaks GA for some reason (probably requirejs). Update your tracking code in template.html instead.
-    favIcon: 'images/google_developers_logo_tiny.png',
+    favIcon: 'images/logoCeiba.png',
     fonts: [
       'Open Sans:regular,semibold,italic,italicsemibold',
       'Source Code Pro'
@@ -19,19 +19,11 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Andres Felipe Cano Amaya',
-    company: 'Gerente Técnico, Ceiba Software',
-    gplus: 'http://plus.google.com/1234567890',
-    twitter: '@yourhandle',
-    www: 'http://www.you.com',
-    github: 'http://github.com/you'
-  },{
-    name: 'Nelson Manuel Moreno Restrepo',
-    company: 'Arquitecto, Ceiba Software',
-    gplus: 'http://plus.google.com/1234567890',
-    twitter: '@notesla',
-    www: 'http://www.you.com',
-    github: 'http://github.com/nelsonmoreno'
+    name: 'Hernan Dario Metaute Sarmiento',
+    company: 'Gerencia tecnica, Ceiba Software',
+    gplus: 'https://plus.google.com/u/0/114543444944718222057',
+    twitter: '@hmetaute',
+    github: 'http://github.com/hmetaute'
   }]
 };
 
