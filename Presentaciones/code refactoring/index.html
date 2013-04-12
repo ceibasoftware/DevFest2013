@@ -1,0 +1,219 @@
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/logoCeiba.png"></span>
+    </article>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+   <!-- <aside class="gdbar"><img src="images/logoCeiba.png"></aside>-->
+    <span><img src="images/devfest.png"></span>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title>xx</h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Factorización</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>Factorización es un proceso importante del algebra que es usado para simplificar expreciones y solucionar sistemas de ecuaciones.</li>      
+      </ul>
+      <ul class="build">
+        <li><img src="images/refact.jpg"></li>
+      </ul>
+    </article>
+  </slide>
+    
+
+  
+ <slide>
+    <hgroup>
+      <h2>Factorización</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>Factorización es un proceso importante del algebra que es usado para simplificar expreciones y solucionar sistemas de ecuaciones.</li>      
+      </ul>
+      <ul class="build">
+        <li><img src="images/hqdefault.jpg"></li>
+      </ul>      
+    </article>
+  </slide>
+ 
+ 
+ <slide class="segue dark nobackground">
+    <aside class="gdbar"><img src="images/devfest.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Refactorización de código</h2>
+      <h3>Patrones y malos olores</h3>
+    </hgroup>
+  </slide>
+
+  <slide class="fill nobackground" style="background-image: url(images/badsmell.jpg)">
+    <hgroup>
+      <!--h2 class="white">Full Image (with Optional Header)</h2>-->
+    </hgroup>
+    <footer class="source white">www.flickr.com/photos/25797459@N06/5438799763/</footer>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Malos olores</h2>
+      <h3>Definición</h3>
+    </hgroup>
+    <article>
+      <ul >
+        <li>"A code smell is a surface indication that usually corresponds to a deeper problem in the system. The term was first coined by Kent Beck while helping me with my Refactoring book." - Martin Fowler</li>
+        <br><center><img src="images/bad-smell.jpg"></center>
+      </ul>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Factorización</h2>
+    </hgroup>
+    <article>
+      <iframe data-src="http://nemo.sonarsource.org/resource/index/437681"></iframe>    
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Malos olores</h2>
+    </hgroup>
+    <article>
+      <iframe data-src="http://users.csc.calpoly.edu/~jdalbey/305/Lectures/SmellsToRefactorings"></iframe>    
+    </article>
+  </slide>
+    
+    
+  <slide>
+    <hgroup>
+      <h2>Funciones de refactorización </h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>Rename</li>
+        <li>Move</li>
+        <li>Extract Local Variable</li>
+        <li>Extract Constant</li>
+        <li>Convert Local Variable to Field</li>
+        <li>Convert Anonymous Class to Nested</li>
+        <li>Extract Interface</li>
+        <li>Extract Method</li>
+        <li>IChange Method Signature</li>
+        <li>Infer Generic Type Arguments</li>
+        <li>...</li>        
+      </ul>
+    </article>
+  </slide>    
+    
+
+
+
+  <slide>
+    <hgroup>
+      <h2>Caundo se debe refactorizar</h2>
+    </hgroup>
+    <article >
+      <ul>
+        <li>"Todo el tiempo"</li>
+        <li>Cuando se esta agregando una nueva funcionalidad</li>
+        <li>Cuando se esta corrigiendo un error</li>
+        <li>Cuando hay malos olores</li>
+      </ul>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Caundo  NO!! se debe refactorizar</h2>
+    </hgroup>
+    <article >
+      <ul>
+        <li>Cuando el software no funciona</li>
+        <li>Cuando la fecha de entrega es muy cercana</li>
+        <li>Cuando refactorizar es mas costoso que volver a construir </li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Refactorización de código</h2>
+      <h3>Regla de oro</h3>
+    </hgroup>
+    <article>
+      <ul class="build">
+        <li>"Code without tests is bad code. It doesnt matter how well written it is; it doesnt matter how pretty or object-oriented or well-encapsulated it is. With tests, we can change the behavior of our code quickly and verifiably. Without them, we really dont know if our code is getting better or worse.
+." - MIchael C. Feathers</li>
+        <br><center><img src="images/bad-smell.jpg"></center>
+      </ul>
+    </article>
+  </slide>
+  <slide hidden>
+      </slide>
+
+
+  <slide class="logoslide dark nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/devfestfull.png"></span>
+    </article>
+  </slide>
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
